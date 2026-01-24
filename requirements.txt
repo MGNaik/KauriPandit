@@ -1,0 +1,5 @@
+numpy       # for numerical calculations
+scipy       # optional, for probability/stats functions
+matplotlib  # plotting and visualizing game data
+pytest      # for testing
+pandas

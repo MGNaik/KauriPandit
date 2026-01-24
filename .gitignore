@@ -1,12 +1,32 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.sqlite3          # any local DB files
+*.egg-info/        # package metadata if building a package
 
-#Virtual Environment
+# Virtual Environment
 .venv/
 
 # Editor / OS
 .vscode/
 .DS_Store
+*.swp
+*.idea/            # if using PyCharm
+*.egg
+*.dist-info/       # built package info
 
+# Python test / coverage / cache
+.pytest_cache/
+.coverage
+htmlcov/
 
+# Logs
+*.log
+
+# Docs build
+docs/_build/
+
+#Vim
+*.un~
